@@ -129,7 +129,7 @@ public class KcaFleetViewService extends Service {
     }
 
     public static void setReadyFlag(boolean flag) {
-        isReady = flag;
+        isReady = true;
     }
 
     private static String makeLvString(int level) {
